@@ -1,4 +1,2 @@
 .next
-src/config/app.js
-now.*.json
 node_modules
