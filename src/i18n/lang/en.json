@@ -1,5 +1,7 @@
 {
-  "siteIntro": "WE ARE GETTING MARRIED",
+  "siteIntro": "WE INVITE YOU TO ATTEND",
+  "siteIntroCont": "THE WEDDING OF",
+  "eventDateValue": "•    13 04 2025    •",
   "eventDate": "Event Date",
   "invitationGreeting": "Dear",
   "invitationIntro": "You Are Cordially Invited",
@@ -9,5 +11,7 @@
   "btnAddToMyCalendar": "Add to my calendar",
   "guestCheckin": {
     "pleaseScanInvitation": "Please scan your invitation.."
-  }
+  },
+  "bismillah": "بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ",
+  "bismillahMeaning": "In the Name of Allah, The Most Merciful and The Most Kind"
 }
