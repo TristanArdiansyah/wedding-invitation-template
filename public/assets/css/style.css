@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 
 body {
-    font-family: 'Cinzel Decorative';
+    font-family: 'Cormorant Garamond', serif !important;
     font-style: normal;
     color: #747e88
 }
@@ -51,7 +53,7 @@ h3
 h4,
 h5,
 h6 {
-    font-family: 'Cinzel Decorative';
+    font-family: 'Cormorant Garamond', serif !important;
     color: #38424d;
     margin: 0
 }
@@ -102,7 +104,7 @@ p {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-image: url("https://s3-alpha-sig.figma.com/img/9285/a088/94cc189b60635b155f9a77b7687cbba3?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PVGcwI7Ewq8~H3l6ww8bju8sHWgAyI4j6UK6F7sjWERd3w15m5PkaL3OiZfrG3FTwRMT7-tR3tPh2ACvY6GygpfmyvN-Lxxs3GsuRvmWRQuThTES6a9rJJnoEvqiutOJ~IWdb5frQaDohVTOqsAapj4OyWmSfylNLfz5C6ygJ0mxoNE~pqItVxHMP8O68u53tntgWB4VPWfXxB3AkSVfVakhO2w0XxpdXSfO~vtSQnwbqkGypbb5RRmRlSaXLQiRUjLBIBTW5M3b0jErKLQw9b6HUgHJ27TNSVA2CH8Aml~-1Vj20o-Q7e4dG-E6NcWxfH-oX1KYpw7SuLcUgVKofw__");
+    background-image: url("/assets/images/header.png");
     background-color: #cccccc;
 }
 
@@ -703,7 +705,7 @@ p {
     transition: all .3s ease-out 0s;
     padding: 10px 0;
     position: relative;
-    font-family: 'Cormorant Garamond';
+    font-family: 'Cormorant Garamond', serif !important;
     position: relative
 }
 
@@ -918,13 +920,13 @@ p {
 
 .slider_content .slider_sub_title_secondary {
     font-size: 64px;
-    font-family: 'Cormorant Garamond';
+    font-family: 'Cormorant Garamond', serif !important;
     color: #fff
 }
 
 .slider_content .slider_sub_title_primary {
     font-size: 30px;
-    font-family: 'Cormorant Garamond';
+    font-family: 'Cormorant Garamond', serif !important;
     color: #fff
 }
 
@@ -987,7 +989,7 @@ p {
 }
 
 .slider_content .location {
-    font-family: 'Cormorant Garamond';
+    font-family: 'Cormorant Garamond', serif !important;
     font-size: 30px;
     font-weight: 400;
     color: #fff;
@@ -1174,6 +1176,10 @@ p {
     z-index: 5
 }
 
+.couple_name {
+    font-family: "Carattere", cursive !important;
+}
+
 @media only screen and (min-width:768px) and (max-width:991px) {
     .single_couple .couple_content {
         padding: 15px
@@ -1295,6 +1301,8 @@ p {
 
 .coming_soon_shape_1 img {
     width: 330px;
+    opacity: .70;
+
 }
 
 .coming_soon_shape_2 {
@@ -1306,6 +1314,7 @@ p {
 
 .coming_soon_shape_2 img {
     width: 330px;
+    opacity: .70;
 }
 
 .coming_soon_count .single_count {
@@ -1377,7 +1386,7 @@ p {
 
 .coming_soon_count .single_count .count_content .count {
     font-size: 60px;
-    font-family: 'Cormorant Garamond';
+    font-family: 'Cormorant Garamond', serif !important;
     color: #fff;
     line-height: 45px
 }
@@ -1786,7 +1795,7 @@ p {
 }
 
 .single_testimonial .testimonial_content .author_name {
-    font-family: 'Cormorant Garamond';
+    font-family: 'Cormorant Garamond', serif !important;
     font-size: 18px;
     font-weight: 700;
     color: #38424d;
