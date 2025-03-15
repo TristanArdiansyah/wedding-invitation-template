@@ -30,14 +30,15 @@ const StorySection = () => (
             }}
           >
             <div className="card-body d-flex">
-              <h3 className="align-self-center">
+              <h4 className="align-self-center">
                 Although they spent most of their time apart geographically, they
                 have always maintained a close relationship to this day. At
                 first, they thought they were so different from each other, but
                 as time went on and the distance grew, their hearts grew fonder.
-              </h3>
+              </h4>
             </div>
           </div>
+              <br />
         </div>
         <div className="col-lg-6">
           <div
@@ -48,12 +49,12 @@ const StorySection = () => (
             }}
           >
             <div className="card-body d-flex">
-              <h3 className="align-self-center">
+              <h4 className="align-self-center">
                 Yasmin and Ryan first met in middle school when they were Head
                 and Vice Head of the Disciplinary Committee in the Student
                 Council (OSIS) at Jakarta Islamic School. They attended different
                 high schools and universities.
-              </h3>
+              </h4>
             </div>
           </div>
           <div

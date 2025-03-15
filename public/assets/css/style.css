@@ -1295,26 +1295,26 @@ p {
 .coming_soon_shape_1 {
     position: absolute;
     bottom: -30px;
-    left: -120px;
+    left: -180px;
     z-index: -1
 }
 
 .coming_soon_shape_1 img {
     width: 330px;
-    opacity: .70;
+    opacity: .50;
 
 }
 
 .coming_soon_shape_2 {
     position: absolute;
     top: -30px;
-    right: -120px;
+    right: -180px;
     z-index: -1
 }
 
 .coming_soon_shape_2 img {
     width: 330px;
-    opacity: .70;
+    opacity: .50;
 }
 
 .coming_soon_count .single_count {
@@ -2041,3 +2041,8 @@ p.form-message.error.form-message.error {
     color: #fff;
     background-color: #d59a57
 }
+
+.flex-img {
+    max-width: 250px;
+  }
+  

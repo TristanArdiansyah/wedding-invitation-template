@@ -1,0 +1,38 @@
+
+.marquee {
+    position: relative;
+    width: 100%;
+    /* Adjust height as needed or use a responsive technique */
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .marqueeTrack {
+    display: flex;
+    /* 200% because we render the images array twice (2 x 100%) */
+    width: 200%;
+    /* The keyframe animation below moves this entire track to the left. */
+    animation: scroll-left 20s linear infinite; /* Adjust 20s for speed */
+  }
+  
+  .imageContainer {
+    position: relative;
+    /* The width is flexible so it can be responsive. 
+       You can also use min-width or a percentage-based approach. */
+    width: 25vw; /* For example, each image takes up 25% of viewport width */
+    /* Height matches the parent or you can adapt it. */
+    height: 100%;
+    /* You can add margin if desired. */
+  }
+  
+  /* Keyframes for the infinite scroll animation */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      /* Move left by half of the track's total width
+         (since we duplicated images, 50% covers the first set). */
+      transform: translateX(-50%);
+    }
+  }

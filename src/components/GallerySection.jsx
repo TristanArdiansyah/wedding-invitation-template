@@ -13,21 +13,21 @@ const GallerySection = () => (
       style={{ width: "100%" }}
     />
     <div className="container text-center">
-      <br />
+      <br /> <br />
       <h4>
         وَمِنْ ءَايَـٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ
         أَزْوَٰجًۭا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم
         مَّوَدَّةًۭ وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍۢ
         لِّقَوْمٍۢ يَتَفَكَّرُونَ
       </h4>
-      <br />
+      <br /><br />
       <h4>
         And one of His signs is that He created for you spouses from among
         yourselves so that you may find comfort in them. And He has placed
         between you compassion and mercy. Surely in this are signs for people
         who reflect.
       </h4>
-      <br />
+      <br /><br />
       <h3>- AR-RUM : 21 -</h3>
       <img
         src="/assets/images/section-divider.png"
