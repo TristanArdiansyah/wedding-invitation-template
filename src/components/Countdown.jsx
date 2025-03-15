@@ -78,10 +78,10 @@ function Countdown({ targetDate }) {
 // Inline styles just for demonstration; replace with your own styling as needed.
 const styles = {
   card: {
-    width: '200px',
-    height: '240px',
+    width: '20vh',
+    height: '18vh',
     background: '#fff',
-    borderRadius: '8px',
+    borderRadius: '20px',
     boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
     display: 'flex',
     flexDirection: 'column',
@@ -89,7 +89,7 @@ const styles = {
     justifyContent: 'center',
   },
   number: {
-    fontSize: '4rem',
+    fontSize: '3.5rem',
     fontWeight: 'bold',
   },
   label: {
