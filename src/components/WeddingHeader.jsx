@@ -74,8 +74,8 @@ const WeddingHeader = ({
                       <br />
                       <h5
                         className="slider_sub_title_primary"
-                        data-animation="fadeInUp"
                         data-delay="0.2s"
+                        data-animation="fadeInUp"
                         style={{ animationDelay: "0.2s" }}
                       >
                         {t("siteIntro")}
