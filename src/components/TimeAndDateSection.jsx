@@ -58,7 +58,7 @@ const TimeAndDateSection = ({ venue, t }) => {
                                 <h3 className="mb-3 text-white">07.00 - 09.00</h3>
                                 <br /><br />
                                 <h2 className="mb-3 text-white">Bea Cukai Pusat</h2>
-                                <br />
+                                <br /><br />
                                 <p className="text-center text-white" style={{ maxWidth: "250px" }}>
                                     Jl. Jenderal Ahmad Yani, Pisangan Tim., Kec. Pulo Gadung, Kota
                                     Jakarta Timur, DKI Jakarta
@@ -96,9 +96,10 @@ const TimeAndDateSection = ({ venue, t }) => {
                                 />
                                 <h2 className="mb-2 text-white">{t("reception")}</h2>
                                 <br /><br />
-                                <h3 className="mb-3 text-white">11.00 - 14.00</h3>
+                                <h3 className="mb-3 text-white">11.00 - 13.00</h3>
                                 <br /><br />
                                 <h2 className="mb-3 text-white">Auditorium Merauke</h2>
+                                <h3>Dirjen Bea Cukai Pusat</h3>
                                 <br />
                                 <p className="text-center text-white" style={{ maxWidth: "250px" }}>
                                     Jl. Jenderal Ahmad Yani, Pisangan Tim., Kec. Pulo Gadung, Kota
