@@ -104,6 +104,12 @@ const WeddingHeader = ({
                       >
                         {t("eventDateValue")}
                       </span>
+                      <br /><br />
+                        <img src="/assets/images/arrow.svg" alt="" />
+                        <br />
+                      <a href="https://chat.ryanyasmin.biomadev.my.id/" type="button" class="btn btn-light btn-lg">
+                      {t("buttonChatbot")}
+                      </a>
                     </div>
                   </div>
                 </div>

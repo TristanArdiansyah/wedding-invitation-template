@@ -9,22 +9,22 @@ const TimeAndDateSection = ({ venue, t }) => {
                 <img src="/assets/images/shape-1.png" alt="shape" />
             </div>
             <div className="container text-center">
-                <h1>We are getting married</h1>
+                <h1>{t("gettingMarried")}</h1>
                 <br />
                 <br />
                 <h3>Assalamualaikum Warahmatullahi Wabarakatuh</h3>
                 <br />
                 <h3>
-                    With the grace and blessing of Allah SWT, <br />
-                    We are delighted to invite you to the wedding <br />
-                    ceremony of Yasmin &amp; Ryan that will be held on:
+                    {t("withThePraise1")} <br />
+                    {t("withThePraise2")} <br />
+                    {t("withThePraise3")} <br />
                 </h3>
                 <br />
-                <h1>April 13th 2025</h1>
+                <h1>{t("datetime")}</h1>
                 <br />
                 <br />
                 {/* Existing Countdown */}
-                <Countdown targetDate="2025-04-13T10:00:00" />
+                <Countdown targetDate="2025-04-13T07:00:00" />
                 <br />
                 <br />
 
@@ -53,7 +53,7 @@ const TimeAndDateSection = ({ venue, t }) => {
                                     alt="icon"
                                     style={{ width: "60px", marginBottom: "1rem" }}
                                 />
-                                <h2 className="mb-2 text-white">Wedding Ceremony</h2>
+                                <h2 className="mb-2 text-white">{t("akad")}</h2>
                                 <br /><br />
                                 <h3 className="mb-3 text-white">07.00 - 09.00</h3>
                                 <br /><br />
@@ -94,7 +94,7 @@ const TimeAndDateSection = ({ venue, t }) => {
                                     alt="icon"
                                     style={{ width: "60px", marginBottom: "1rem" }}
                                 />
-                                <h2 className="mb-2 text-white">Wedding Reception</h2>
+                                <h2 className="mb-2 text-white">{t("reception")}</h2>
                                 <br /><br />
                                 <h3 className="mb-3 text-white">11.00 - 14.00</h3>
                                 <br /><br />
@@ -130,8 +130,7 @@ const TimeAndDateSection = ({ venue, t }) => {
                 {/* Additional note / invitation */}
                 <div className="count_content" style={{ zIndex: 1, paddingTop: 20 }}>
                     <h4>
-                        It would give us great honor and happiness if you are willing to
-                        attend the wedding to give blessings for the bride and groom 💛
+                        {t("thanksForAttendance")}
                     </h4>
                 </div>
                 <img

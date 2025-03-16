@@ -3,18 +3,18 @@ import React from 'react';
 // Sample data for bank accounts
 const bankAccounts = [
   {
-    name: 'Asep Irawan',
+    name: 'Muhammad Ryanrahmadifa',
     bank: 'BNI',
-    account: '009 - 0222 2444 21',
+    account: '122 054 7422',
   },
   {
-    name: 'Putri Amanda',
-    bank: 'BNI',
-    account: '009 - 0222 2444 21',
+    name: 'Yasmin Salimah',
+    bank: 'BSI',
+    account: ' 971 168 5380',
   },
 ];
 
-function GiftsInformation() {
+function GiftsInformation( {t} ) {
   // Function to copy the bank account number to the clipboard
   const handleCopy = (accountNumber) => {
     navigator.clipboard
@@ -31,8 +31,8 @@ function GiftsInformation() {
     <div style={styles.container}>
       {/* Digital Wallet Section */}
       <div style={styles.walletContainer}>
-        <h2>Digital Wallet</h2>
-        <p>Note: Tap to copy bank number</p>
+        <h2>{t("digitalWallet")}</h2>
+        <p>{t("digitalWalletSubheading")}</p>
         {bankAccounts.map((acc, idx) => (
           <div key={idx} style={styles.bankRow} className='text-left'>
             <div style={styles.bankInfo}>
@@ -47,9 +47,12 @@ function GiftsInformation() {
             <div
               style={styles.accountRow}
               onClick={() => handleCopy(acc.account)}
+              className='d-flex justify-content-between'
             >
               <span>{acc.account}</span>
-              <button style={styles.copyButton}>Copy</button>
+              <button style={styles.copyButton}>
+                <img src="/assets/images/content_copy.svg" alt="" />
+              </button>
             </div>
           </div>
         ))}
@@ -57,15 +60,14 @@ function GiftsInformation() {
 
       {/* Gift Wishlist Section */}
       <div style={styles.wishlistContainer}>
-        <h2 >Gift Wishlist</h2>
+        <h2 >{t("wishlist")}</h2>
         <br />
         <p >
-          If you are interested in giving us some physical gifts, it would mean
-          a lot to us if you could check our wedding wishlist here!
+          {t("giftSubtext")}
         </p>
         <br />
         <button style={styles.wishlistButton}>
-          Open Wishlist
+          {t("giftButton")}
         </button>
       </div>
     </div>
@@ -126,6 +128,7 @@ const styles = {
     borderRadius: '4px',
     cursor: 'pointer',
     transition: 'background 0.2s',
+
   },
   copyButton: {
     background: '#f2f2f2',

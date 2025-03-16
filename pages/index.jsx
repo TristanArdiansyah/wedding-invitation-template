@@ -12,6 +12,7 @@ import TimeAndDateSection from "@src/components/TimeAndDateSection";
 import StorySection from "@src/components/StorySection";
 import GallerySection from "@src/components/GallerySection";
 import MessageSection from "@src/components/MessageSection";
+import GiftsSection from "@src/components/GiftsSection";
 import Footer from "@src/components/Footer";
 
 const translateConfig = (appConfig, locale) => {
@@ -81,11 +82,12 @@ const ShowInvite = ({ currentUrl, guestListLastUpdatedAt, guest }) => {
         coupleName={coupleName}
         t={t}
       />
-      <CoupleSection />
+      <CoupleSection t={t} />
       <TimeAndDateSection venue={venue} t={t} />
-      <StorySection />
-      <GallerySection />
-      <MessageSection />
+      <StorySection t={t} />
+      <GallerySection  t={t} />
+      <GiftsSection t={t} />
+      <MessageSection t={t} />
       <Footer logo={logo} coupleName={coupleName} appConfig={appConfig} />
     </div>
   );

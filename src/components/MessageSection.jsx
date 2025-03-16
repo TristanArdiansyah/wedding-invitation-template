@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const MessageSection = () => {
+const MessageSection = ( {t} ) => {
   const [messages, setMessages] = useState([]);
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
@@ -34,18 +34,18 @@ const MessageSection = () => {
   return (
     <section id="coming_soon" className="coming_soon_area pt-20 pb-70">
       <div className="container">
-        <h2 className="mb-4 text-center">Leave Us a Message!</h2>
+        <h2 className="mb-4 text-center">{t("leaveMessage")}</h2>
         {/* The Form */}
         <form onSubmit={handleSubmit} className="card p-4 mb-5" style={{ borderRadius: 30}} >
           <div className="form-group mb-3">
             <label htmlFor="name" className="mb-1">
-              <strong>Name</strong>
+              <strong>{t("name")}</strong>
             </label>
             <input
               type="text"
               className="form-control"
               id="name"
-              placeholder="Your Name"
+              placeholder={t("nameTextbox")}
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
@@ -54,13 +54,13 @@ const MessageSection = () => {
           </div>
           <div className="form-group mb-3">
             <label htmlFor="message" className="mb-1">
-              <strong>Message</strong>
+              <strong>{t("message")}</strong>
             </label>
             <textarea
               className="form-control"
               id="message"
               rows="3"
-              placeholder="Your Message"
+              placeholder={t("messageTextbox")}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
@@ -69,7 +69,7 @@ const MessageSection = () => {
           </div>
           <div className="form-group mb-3">
             <label className="mb-1 d-block">
-              <strong>Attendance</strong>
+              <strong>{t("attendance")}</strong>
             </label>
             <div className="form-check form-check-inline">
               <input
@@ -82,7 +82,7 @@ const MessageSection = () => {
                 onChange={(e) => setAttendance(e.target.value)}
               />
               <label className="form-check-label" htmlFor="attendYes">
-                Yes
+              {t("yes")}
               </label>
             </div>
             <div className="form-check form-check-inline">
@@ -96,7 +96,7 @@ const MessageSection = () => {
                 onChange={(e) => setAttendance(e.target.value)}
               />
               <label className="form-check-label" htmlFor="attendMaybe">
-                Maybe
+              {t("maybe")}
               </label>
             </div>
             <div className="form-check form-check-inline">
@@ -110,12 +110,12 @@ const MessageSection = () => {
                 onChange={(e) => setAttendance(e.target.value)}
               />
               <label className="form-check-label" htmlFor="attendNo">
-                No
+              {t("no")}
               </label>
             </div>
           </div>
           <button type="submit" className="btn btn-info btn-lg" style={{ borderRadius: 10 }}>
-            Send Now
+          {t("sendNow")}
           </button>
         </form>
 
@@ -124,7 +124,7 @@ const MessageSection = () => {
           {/* Show total message count (prepend '0' if < 10 for style) */}
           <h4 className="mb-4">
             {messages.length < 10 ? `0${messages.length}` : messages.length}{" "}
-            Messages
+            {t("messages")}
           </h4>
 
           {messages.map(({ id, name, message, attendance }) => (
@@ -166,7 +166,7 @@ const MessageSection = () => {
 
           {messages.length === 0 && (
             <div className="text-center" style={{ color: "#747e88" }}>
-              No messages yet. Be the first to write something!
+              {t("noMessages")}
             </div>
           )}
         </div>

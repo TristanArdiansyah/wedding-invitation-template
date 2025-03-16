@@ -1,13 +1,13 @@
 // src/components/StorySection.jsx
 import React from "react";
 
-const StorySection = () => (
+const StorySection = ({ t }) => (
   <section id="story" className="coming_soon_area pt-20 pb-70">
     <div className="coming_soon_shape_1" style={{ zIndex: -1 }}>
       <img src="/assets/images/shape-1.png" alt="shape" />
     </div>
     <div className="container text-center">
-      <h1 className="mb-40">Our Story</h1>
+      <h1 className="mb-40">{t("storyHeading")}</h1>
       <div className="row align-items-center">
         <div className="col-lg-6">
           <div
@@ -31,14 +31,11 @@ const StorySection = () => (
           >
             <div className="card-body d-flex">
               <h4 className="align-self-center">
-                Although they spent most of their time apart geographically, they
-                have always maintained a close relationship to this day. At
-                first, they thought they were so different from each other, but
-                as time went on and the distance grew, their hearts grew fonder.
+                {t("story1")}
               </h4>
             </div>
           </div>
-              <br />
+          <br />
         </div>
         <div className="col-lg-6">
           <div
@@ -50,10 +47,7 @@ const StorySection = () => (
           >
             <div className="card-body d-flex">
               <h4 className="align-self-center">
-                Yasmin and Ryan first met in middle school when they were Head
-                and Vice Head of the Disciplinary Committee in the Student
-                Council (OSIS) at Jakarta Islamic School. They attended different
-                high schools and universities.
+              {t("story2")}
               </h4>
             </div>
           </div>

@@ -1,7 +1,7 @@
 // src/components/GallerySection.jsx
 import React from "react";
 
-const GallerySection = () => (
+const GallerySection = ( {t} ) => (
   <section id="gallery" className="coming_soon_area pt-20 pb-70">
     <div className="container text-center">
       <h1>Gallery</h1>
@@ -22,10 +22,7 @@ const GallerySection = () => (
       </h4>
       <br /><br />
       <h4>
-        And one of His signs is that He created for you spouses from among
-        yourselves so that you may find comfort in them. And He has placed
-        between you compassion and mercy. Surely in this are signs for people
-        who reflect.
+      {t("arRumMeaning")}
       </h4>
       <br /><br />
       <h3>- AR-RUM : 21 -</h3>

@@ -1,15 +1,15 @@
 // src/components/CoupleSection.jsx
 import React from "react";
 
-const CoupleSection = () => (
+const CoupleSection = ({
+  t
+}) => (
     <section id="bride-groom" className="coming_soon_area pt-20 pb-70">
         <div className="container text-center pt-40">
-            <h1>Meet The Happy Couple</h1>
+            <h1>{t("coupleIntro")}</h1>
             <br />
             <h3>
-                All praise due to Allah, The Lord of the universe which has created
-                humans in pairs. To Him we ask for the blessing for our wedding and for
-                the rest of our lives.
+                {t("coupleSubheading")}
             </h3>
             <br />
             <div className="row align-items-center">
@@ -17,7 +17,7 @@ const CoupleSection = () => (
                     <img src="/assets/images/ryan.png" alt="Ryan" />
                     <br /><br />
                     <h1 className="couple_name">Muhammad Ryanrahmadifa</h1>
-                    <h4>Son of</h4>
+                    <h4>{t("sonOf")}</h4>
                     <h3>
                         Mr. Budiyanto Kurniawan, S.E
                         <br />&<br />
@@ -29,7 +29,7 @@ const CoupleSection = () => (
                     <img src="/assets/images/yasmin.png" alt="Yasmin" />
                     <br /><br />
                     <h1 className="couple_name">Yasmin Salimah</h1>
-                    <h4>Daughter of</h4>
+                    <h4>{t("daughterOf")}</h4>
                     <h3>
                         Mr. Ferry Zuljanna, S.T., M.M.
                         <br />&<br />
