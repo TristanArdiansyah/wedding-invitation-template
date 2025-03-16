@@ -49,8 +49,7 @@ video {
 
 h1,
 h2,
-h3 
-h4,
+h3 h4,
 h5,
 h6 {
     font-family: 'Cormorant Garamond', serif !important;
@@ -106,6 +105,19 @@ p {
     z-index: 1;
     background-image: url("/assets/images/header.png");
     background-color: #cccccc;
+}
+
+@media all and (max-width: 499px) {
+    .bg_cover {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-image: url("/assets/images/header-m.png");
+        background-color: #cccccc;
+    }
 }
 
 .slick-slide {
@@ -941,6 +953,7 @@ p {
         font-size: 32px
     }
 }
+
 @media only screen and (min-width:768px) and (max-width:991px) {
     .slider_content .slider_sub_title_primary {
         font-size: 24px
@@ -2044,5 +2057,4 @@ p.form-message.error.form-message.error {
 
 .flex-img {
     max-width: 250px;
-  }
-  
+}

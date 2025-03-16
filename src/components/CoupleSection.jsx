@@ -13,7 +13,7 @@ const CoupleSection = ({
             </h3>
             <br />
             <div className="row align-items-center">
-                <div className="col-lg-6">
+                <div className="col-lg-6 pt-5">
                     <img src="/assets/images/ryan.png" alt="Ryan" />
                     <br /><br />
                     <h1 className="couple_name">Muhammad Ryanrahmadifa</h1>
@@ -23,9 +23,8 @@ const CoupleSection = ({
                         <br />&<br />
                         Ms. Fatmah Sardin S.E. M.Kom.
                     </h3>
-                    <br />
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 pt-5">
                     <img src="/assets/images/yasmin.png" alt="Yasmin" />
                     <br /><br />
                     <h1 className="couple_name">Yasmin Salimah</h1>
