@@ -12,8 +12,8 @@ import TimeAndDateSection from "@src/components/TimeAndDateSection";
 import StorySection from "@src/components/StorySection";
 import GallerySection from "@src/components/GallerySection";
 import MessageSection from "@src/components/MessageSection";
-import GiftsSection from "@src/components/GiftsSection";
 import Footer from "@src/components/Footer";
+import GiftsSection from "@src/components/GiftsSection";
 
 const translateConfig = (appConfig, locale) => {
   if (!locale || locale === defaultLocale) {

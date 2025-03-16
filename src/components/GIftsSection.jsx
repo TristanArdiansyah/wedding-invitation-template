@@ -1,4 +1,3 @@
-// src/components/GallerySection.jsx
 import React from "react";
 import GiftsInformation from "@src/components/GiftsInformation";
 
