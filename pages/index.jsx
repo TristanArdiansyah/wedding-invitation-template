@@ -87,7 +87,7 @@ const ShowInvite = ({ currentUrl, guestListLastUpdatedAt, guest }) => {
       <StorySection t={t} />
       <GallerySection  t={t} />
       {/* <GiftsSection t={t} /> */}
-      <MessageSection t={t} />
+      {/* <MessageSection t={t} /> */}
       <Footer logo={logo} coupleName={coupleName} appConfig={appConfig} />
     </div>
   );
