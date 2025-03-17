@@ -41,7 +41,7 @@ const WeddingHeader = ({
         <div className="slick-list draggable">
           <div className="slick-track" style={{ opacity: 1 }}>
             <div
-              className="bg_cover d-flex justify-content-center align-items-center border pb-20"
+              className="bg_cover d-flex justify-content-center align-items-center pb-20"
               style={{ height: "110vh" }}
             >
               <div className="container content">
