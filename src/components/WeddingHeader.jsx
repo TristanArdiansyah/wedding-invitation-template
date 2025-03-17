@@ -41,8 +41,8 @@ const WeddingHeader = ({
         <div className="slick-list draggable">
           <div className="slick-track" style={{ opacity: 1 }}>
             <div
-              className="bg_cover d-flex align-items-top pt-100"
-              style={{ height: "100vh" }}
+              className="bg_cover d-flex justify-content-center align-items-center border pb-20"
+              style={{ height: "110vh" }}
             >
               <div className="container content">
                 <div className="row justify-content-center">
@@ -68,12 +68,8 @@ const WeddingHeader = ({
                         {t("bismillahMeaning")}
                       </h3>
                       <br />
-                      <br />
-                      <br />
-                      <br />
-                      <br />
                       <h5
-                        className="slider_sub_title_primary"
+                        className="slider_sub_title_primary pt-50"
                         data-delay="0.2s"
                         data-animation="fadeInUp"
                         style={{ animationDelay: "0.2s" }}
@@ -104,11 +100,11 @@ const WeddingHeader = ({
                       >
                         {t("eventDateValue")}
                       </span>
-                      <br /><br />
-                        <img src="/assets/images/arrow.svg" alt="" />
-                        <br />
-                      <a href="https://chat.ryanyasmin.biomadev.my.id/" type="button" class="btn btn-light btn-lg">
-                      {t("buttonChatbot")}
+                      <br />
+                      <img src="/assets/images/arrow.svg" alt="" />
+                      <br />
+                      <a href="https://chat.ryanyasmin.biomadev.my.id/" type="button" class="btn btn-light">
+                        {t("buttonChatbot")}
                       </a>
                     </div>
                   </div>
