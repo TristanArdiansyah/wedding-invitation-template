@@ -1,7 +1,7 @@
 const baseConfig = {
-  weddingDay: "Saturday",
-  weddingTime: "19.00 - 21.00",
-  weddingDate: "Feb 22, 2020",
+  weddingDay: "Sunday",
+  weddingTime: "11.00 - 13.00",
+  weddingDate: "Apr 13, 2025",
   showBuiltWithInfo: true,
   showQrCode: false,
   calendarInfo: {
@@ -14,12 +14,12 @@ const baseConfig = {
     coupleNameFormat: "BRIDE_FIRST"
   },
   venue: {
-    name: "Oval Hotel",
-    addressLine1: "Jalan Diponegoro No.23,",
-    addressLine2: "Surabaya, East Java 60241,",
-    city: "Surabaya",
+    name: "Bea Cukai Pusat",
+    addressLine1: "Jl. Jenderal Ahmad Yani, Pisangan Tim.,",
+    addressLine2: " Kec. Pulo Gadung, Kota Jakarta Timur,",
+    city: "DKI Jakarta",
     country: "Indonesia",
-    mapUrl: "https://maps.app.goo.gl/pCUqr9AjSN8dxzS57"
+    mapUrl: "https://www.google.com/maps/place/Auditorium+Merauke/@-6.2066875,106.8729407,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f50016abf253:0x311faa2bb02cab06!8m2!3d-6.2066875!4d106.8755156!16s%2Fg%2F11wj2p7jtq?entry=ttu&g_ep=EgoyMDI1MDMxMC4wIKXMDSoASAFQAw%3D%3D"
   },
   logo: {
     headerLogo: "/assets/images/ring-svg.png",
@@ -28,19 +28,19 @@ const baseConfig = {
   },
   ogTags: {
     logo: "/assets/images/aw-ring-logo.png",
-    siteName: "wedding.wzulfikar.com",
-    publishedTime: "2020-01-25"
+    siteName: "ryanyasmin.biomadev.my.id",
+    publishedTime: "2025-03-17"
   }
 };
 
 const lang = {
   id: {
-    weddingDay: "Sabtu",
-    weddingDate: "22 Februari 2020",
+    weddingDay: "Minggu",
+    weddingDate: "13 April 2025",
     venue: {
       ...baseConfig.venue,
-      name: "Hotel Oval",
-      addressLine2: "Surabaya, Jawa Timur, 60241,",
+      name: "Bea Cukai Pusat",
+      addressLine2: "Jakarta Timur, DKI Jakarta",
     }
   }
 };
