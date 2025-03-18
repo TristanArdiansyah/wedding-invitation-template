@@ -21,7 +21,7 @@
   "story1": "Although they spent most of their time apart geographically, they have always maintained a close relationship to this day. At first, they thought they were so different from each other, but, as time went longer and distance farther, their hearts grew fonder of each other.",
   "story2": "Yasmin and Ryan first met in middle school as Head and Vice Head of the Disciplinary Committee in the Student Council (OSIS) at Jakarta Islamic School. They attended different high schools and Universities.",
   "arRumMeaning": "And one of His signs is that He created for you spouses from among yourselves so that you may find comfort in them. And He has placed between you compassion and mercy. Surely in this are signs for people who reflect.",
-  "leaveMessage": "Leave Us a Message!",
+  "leaveMessage": "Wedding Wishes",
   "name": "Name",
   "nameTextbox": "Your name",
   "message": "Message",
@@ -31,7 +31,7 @@
   "no": "No",
   "maybe": "Maybe",
   "sendNow": "Send Now",
-  "messages": "Messages",
+  "messages": "Wishes",
   "noMessages": "No messages yet. Be the first to write something!",
   "giftsSection": "Send Us A Gift!",
   "digitalWallet": "Digital Wallet",
@@ -39,6 +39,10 @@
   "wishlist": "Send Gifts",
   "giftSubtext": "Jl. Curug Cempaka III No. 43 RT004/RW001, Kel. Jaticempaka, Kec. Pondokgede, Kota Bekasi 17416",
   "giftButton": "Open Map",
+  "rsvpTitle": "Please fill out the form below to confirm your attendance.",
+  "phone": "Phone Number",
+  "numberOfGuest": "Number of Guest",
+  "rsvpSuccess": "RSVP Sent! ✓",
   "end": "end"
 
 

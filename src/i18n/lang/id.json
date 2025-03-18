@@ -31,7 +31,7 @@
   "no": "No",
   "maybe": "Maybe",
   "sendNow": "Kirim",
-  "messages": "Pesan-pesan",
+  "messages": "Pesan untuk pasangan",
   "noMessages": "No messages yet. Be the first to write something!",
   "giftsSection": "Hadiah Umtuk Pasangan",
   "digitalWallet": "Dompet Digital",
@@ -39,6 +39,10 @@
   "wishlist": "Kirim Hadiah",
   "giftSubtext": "Jl. Curug Cempaka III No. 43 RT004/RW001, Kel. Jaticempaka, Kec. Pondokgede, Kota Bekasi 17416",
   "giftButton": "Buka Peta",
+  "rsvpTitle": "Silahkan isi formulir dibawah ini untuk konfirmasi kehadiran anda.",
+  "phone": "Nomor Telepon",
+  "numberOfGuest": "Jumlah Tamu",
+  "rsvpSuccess": "RSVP terkirim! ✓",
   "end": "end"
 
 

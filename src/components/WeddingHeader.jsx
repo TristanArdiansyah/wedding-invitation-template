@@ -103,7 +103,7 @@ const WeddingHeader = ({
                       <br />
                       <img src="/assets/images/arrow.svg" alt="" />
                       <br />
-                      <a href="https://chat.ryanyasmin.biomadev.my.id/" type="button" class="btn btn-light">
+                      <a href="https://chat.ryanyasmin.biomadev.my.id/" type="button" className="btn btn-light">
                         {t("buttonChatbot")}
                       </a>
                     </div>

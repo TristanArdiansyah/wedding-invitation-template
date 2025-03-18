@@ -2,7 +2,7 @@
 import React from "react";
 
 const CoupleSection = ({
-  t
+    t
 }) => (
     <section id="bride-groom" className="coming_soon_area pt-20 pb-70">
         <div className="container text-center pt-40">
@@ -13,17 +13,7 @@ const CoupleSection = ({
             </h3>
             <br />
             <div className="row align-items-center">
-                <div className="col-lg-6 pt-5">
-                    <img src="/assets/images/ryan.png" alt="Ryan" />
-                    <br /><br />
-                    <h1 className="couple_name">Muhammad Ryanrahmadifa</h1>
-                    <h4>{t("sonOf")}</h4>
-                    <h3>
-                        Mr. Budiyanto Kurniawan, S.E
-                        <br />&<br />
-                        Ms. Fatmah Sardin S.E. M.Kom.
-                    </h3>
-                </div>
+
                 <div className="col-lg-6 pt-5">
                     <img src="/assets/images/yasmin.png" alt="Yasmin" />
                     <br /><br />
@@ -33,6 +23,17 @@ const CoupleSection = ({
                         Mr. Ferry Zuljanna, S.T., M.M.
                         <br />&<br />
                         Mrs. Adithyarini Susilo, S.Psi.
+                    </h3>
+                </div>
+                <div className="col-lg-6 pt-5">
+                    <img src="/assets/images/ryan.png" alt="Ryan" />
+                    <br /><br />
+                    <h1 className="couple_name">Muhammad Ryanrahmadifa</h1>
+                    <h4>{t("sonOf")}</h4>
+                    <h3>
+                        Mr. Budiyanto Kurniawan, S.E
+                        <br />&<br />
+                        Ms. Fatmah Sardin S.E. M.Kom.
                     </h3>
                 </div>
             </div>

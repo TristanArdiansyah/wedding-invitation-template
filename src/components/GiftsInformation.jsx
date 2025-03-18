@@ -57,6 +57,7 @@ function GiftsInformation( {t} ) {
           </div>
         ))}
       </div>
+      <br />
 
       {/* Gift Wishlist Section */}
       <div style={styles.wishlistContainer}>
@@ -77,7 +78,6 @@ function GiftsInformation( {t} ) {
 // Inline styles for demonstration only
 const styles = {
   container: {
-    display: 'flex',
     gap: '2rem',
     justifyContent: 'space-between',
     padding: '2rem',

@@ -13,7 +13,9 @@ import StorySection from "@src/components/StorySection";
 import GallerySection from "@src/components/GallerySection";
 import MessageSection from "@src/components/MessageSection";
 import Footer from "@src/components/Footer";
-// import GiftsSection from "@src/components/GiftsSection";
+import RSVPSection from "../src/components/RSVPSection";
+import GiftsSection from "@src/components/GiftsSection";
+import FloatingButton from "@src/components/FloatingButton";
 
 const translateConfig = (appConfig, locale) => {
   if (!locale || locale === defaultLocale) {
@@ -86,8 +88,10 @@ const ShowInvite = ({ currentUrl, guestListLastUpdatedAt, guest }) => {
       <TimeAndDateSection venue={venue} t={t} />
       <StorySection t={t} />
       <GallerySection  t={t} />
-      {/* <GiftsSection t={t} /> */}
-      {/* <MessageSection t={t} /> */}
+      <GiftsSection t={t} />
+      <RSVPSection t={t} />
+      <MessageSection t={t} />
+      <FloatingButton  />
       <Footer logo={logo} coupleName={coupleName} appConfig={appConfig} />
     </div>
   );

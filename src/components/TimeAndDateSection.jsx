@@ -54,8 +54,7 @@ const TimeAndDateSection = ({ venue, t }) => {
                                     style={{ width: "60px", marginBottom: "1rem" }}
                                 />
                                 <h2 className="mb-2 text-white">{t("akad")}</h2>
-                                <br /><br />
-                                <h3 className="mb-3 text-white">07.00 - 09.00</h3>
+                                <br /><br /><br />
                                 <br /><br />
                                 <h2 className="mb-3 text-white">Bea Cukai Pusat</h2>
                                 <br /><br />
