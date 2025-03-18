@@ -28,9 +28,9 @@ function GiftsInformation( {t} ) {
   };
 
   return (
-    <div style={styles.container}>
+    <div style={styles.container} className='container row'>
       {/* Digital Wallet Section */}
-      <div style={styles.walletContainer}>
+      <div style={styles.walletContainer} className='col-lg-5'>
         <h2>{t("digitalWallet")}</h2>
         <p>{t("digitalWalletSubheading")}</p>
         {bankAccounts.map((acc, idx) => (
@@ -57,10 +57,9 @@ function GiftsInformation( {t} ) {
           </div>
         ))}
       </div>
-      <br />
 
       {/* Gift Wishlist Section */}
-      <div style={styles.wishlistContainer}>
+      <div style={styles.wishlistContainer} className='col-lg-5'>
         <h2 >{t("wishlist")}</h2>
         <br />
         <p >
@@ -85,7 +84,6 @@ const styles = {
     borderRadius: '8px',
   },
   walletContainer: {
-    flex: '1',
     background: '#fff',
     padding: '1.5rem',
     borderRadius: '8px',
@@ -138,7 +136,6 @@ const styles = {
     cursor: 'pointer',
   },
   wishlistContainer: {
-    flex: '1',
     background: '#fff',
     padding: '1.5rem',
     borderRadius: '8px',

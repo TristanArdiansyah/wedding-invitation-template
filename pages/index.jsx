@@ -14,8 +14,8 @@ import GallerySection from "@src/components/GallerySection";
 import MessageSection from "@src/components/MessageSection";
 import Footer from "@src/components/Footer";
 import RSVPSection from "../src/components/RSVPSection";
-import GiftsSection from "@src/components/GiftsSection";
-import FloatingButton from "@src/components/FloatingButton";
+import GiftsSection from "../src/components/GiftsAndSupportSection";
+import FloatingButton from "../src/components/FloatingButton";
 
 const translateConfig = (appConfig, locale) => {
   if (!locale || locale === defaultLocale) {
