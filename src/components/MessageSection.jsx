@@ -21,8 +21,6 @@ const MessageSection = ({ t }) => {
     fetchWishes();
   }, []);
 
-  console.log(wishes)
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 

@@ -18,6 +18,7 @@
     "react": "^16.12.0",
     "react-add-to-calendar": "^0.1.5",
     "react-dom": "^16.12.0",
+    "react-hot-toast": "^2.5.2",
     "react-qr-reader": "^2.2.1",
     "shortid": "^2.2.15",
     "swr": "^0.1.16",

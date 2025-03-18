@@ -4,6 +4,7 @@ import { useTranslation, defaultLocale } from "@src/i18n";
 import resolvePath from "@src/utils/resolvePath";
 import appConfig from "@src/config/app";
 import guestList from "./guest_list.json";
+import { Toaster } from "react-hot-toast";
 
 // Import the new components
 import WeddingHeader from "@src/components/WeddingHeader";
@@ -14,7 +15,7 @@ import GallerySection from "@src/components/GallerySection";
 import MessageSection from "@src/components/MessageSection";
 import Footer from "@src/components/Footer";
 import RSVPSection from "../src/components/RSVPSection";
-import GiftsSection from "../src/components/GiftsAndSupportSection";
+// import GiftsSection from "../src/components/GiftsAndSupportSection";
 import FloatingButton from "../src/components/FloatingButton";
 
 const translateConfig = (appConfig, locale) => {
@@ -88,7 +89,6 @@ const ShowInvite = ({ currentUrl, guestListLastUpdatedAt, guest }) => {
       <TimeAndDateSection venue={venue} t={t} />
       <StorySection t={t} />
       <GallerySection  t={t} />
-      <GiftsSection t={t} />
       <RSVPSection t={t} />
       <MessageSection t={t} />
       <FloatingButton  />

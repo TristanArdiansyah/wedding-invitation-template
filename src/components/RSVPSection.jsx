@@ -9,15 +9,6 @@ const RSVPSection = ({ t }) => {
   const [submitted, setSubmitted] = useState(false);
   const [rsvp, setRSVP] = useState([]);
 
-  const fetchRsvp = async () => {
-    const { data: rsvp } = await supabase.from("rsvp").select("*");
-    setRSVP(rsvp);
-  };
-
-  useEffect(() => {
-    fetchRsvp();
-  }, []);
-
   const handleAttendanceChange = (e) => {
     const value = e.target.value;
     setAttendance(value);
