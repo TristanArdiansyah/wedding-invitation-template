@@ -15,25 +15,21 @@ const CoupleSection = ({
             <div className="row align-items-center">
 
                 <div className="col-lg-6 pt-5">
-                    <img src="/assets/images/yasmin.png" alt="Yasmin" />
+                    <img src="/assets/images/yasmin.png" alt="Bride" />
                     <br /><br />
-                    <h1 className="couple_name">Yasmin Salimah</h1>
+                    <h1 className="couple_name">{t("brideFullName")}</h1>
                     <h4>{t("daughterOf")}</h4>
                     <h3>
-                        Mr. Ferry Zuljanna, S.T., M.M.
-                        <br />&<br />
-                        Mrs. Adithyarini Susilo, S.Psi.
+                    {t("brideParents")}
                     </h3>
                 </div>
                 <div className="col-lg-6 pt-5">
-                    <img src="/assets/images/ryan.png" alt="Ryan" />
+                    <img src="/assets/images/ryan.png" alt="Groom" />
                     <br /><br />
-                    <h1 className="couple_name">Muhammad Ryanrahmadifa</h1>
+                    <h1 className="couple_name">{t("groomFullName")}</h1>
                     <h4>{t("sonOf")}</h4>
                     <h3>
-                        Mr. Budiyanto Kurniawan, S.E
-                        <br />&<br />
-                        Ms. Fatmah Sardin S.E. M.Kom.
+                    {t("groomParents")}
                     </h3>
                 </div>
             </div>

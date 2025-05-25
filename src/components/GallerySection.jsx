@@ -14,18 +14,14 @@ const GallerySection = ( {t} ) => (
     />
     <div className="container text-center">
       <br /> <br />
-      <h4>
-        وَمِنْ ءَايَـٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ
-        أَزْوَٰجًۭا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم
-        مَّوَدَّةًۭ وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍۢ
-        لِّقَوْمٍۢ يَتَفَكَّرُونَ
+      <h4>{t("ayahArabic")}
       </h4>
       <br /><br />
       <h4>
       {t("arRumMeaning")}
       </h4>
       <br /><br />
-      <h3>- AR-RUM : 21 -</h3>
+      <h3>{t("ayahInformation")}</h3>
       <img
         src="/assets/images/section-divider.png"
         alt="divider"

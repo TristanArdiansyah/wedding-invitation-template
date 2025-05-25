@@ -56,11 +56,10 @@ const TimeAndDateSection = ({ venue, t }) => {
                                 <h2 className="mb-2 text-white">{t("akad")}</h2>
                                 <br /><br /><br />
                                 <br /><br />
-                                <h2 className="mb-3 text-white">Bea Cukai Pusat</h2>
+                                <h2 className="mb-3 text-white">{t("ceremonyVenueName")}</h2>
                                 <br /><br />
                                 <p className="text-center text-white" style={{ maxWidth: "250px" }}>
-                                    Jl. Jenderal Ahmad Yani, Pisangan Tim., Kec. Pulo Gadung, Kota
-                                    Jakarta Timur, DKI Jakarta
+                                {t("ceremonyVenueAddress")}
                                 </p>
                                 {/* Link to your map URL */}
                                 {/* <a href={venue.mapUrl} className="btn btn-light mt-3">
@@ -95,14 +94,13 @@ const TimeAndDateSection = ({ venue, t }) => {
                                 />
                                 <h2 className="mb-2 text-white">{t("reception")}</h2>
                                 <br /><br />
-                                <h3 className="mb-3 text-white">11.00 - 13.00</h3>
+                                <h3 className="mb-3 text-white">{t("receptionTime")}</h3>
                                 <br /><br />
-                                <h2 className="mb-3 text-white">Auditorium Merauke</h2>
-                                <h3>Dirjen Bea Cukai Pusat</h3>
+                                <h2 className="mb-3 text-white">{t("receptionVenueName")}</h2>
+                                <h3>{t("receptionVenueSubname")}</h3>
                                 <br />
                                 <p className="text-center text-white" style={{ maxWidth: "250px" }}>
-                                    Jl. Jenderal Ahmad Yani, Pisangan Tim., Kec. Pulo Gadung, Kota
-                                    Jakarta Timur, DKI Jakarta
+                                {t("receptionVenueAddress")}
                                 </p>
                                 {/* Link to your map URL */}
                                 {/* <a href={venue.mapUrl} className="btn btn-light mt-3">
