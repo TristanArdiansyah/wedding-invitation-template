@@ -1,5 +1,5 @@
 import React from "react";
-import GiftsInformation from "@src/components/GiftsInformation";
+import GiftsInformation from "./GiftsInformation";
 
 const GiftsSection = ({ t }) => (
     <section id="gallery" className="coming_soon_area pt-20 pb-70">

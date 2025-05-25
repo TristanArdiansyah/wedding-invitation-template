@@ -1,7 +1,7 @@
 // src/components/WeddingHeader.jsx
 import React from "react";
-import Head from "@src/components/Head";
-import resolvePath from "@src/utils/resolvePath";
+import Head from "./Head";
+import resolvePath from "../utils/resolvePath";
 
 const WeddingHeader = ({
   ogTags,

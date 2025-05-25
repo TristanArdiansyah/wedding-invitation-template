@@ -1,6 +1,6 @@
 // src/components/TimeAndDateSection.jsx
 import React from "react";
-import Countdown from "@src/components/Countdown";
+import Countdown from "./Countdown";
 
 const TimeAndDateSection = ({ venue, t }) => {
     return (

@@ -1,19 +1,19 @@
 // pages/index.jsx
-import React from "react";
-import { useTranslation, defaultLocale } from "@src/i18n";
-import resolvePath from "@src/utils/resolvePath";
-import appConfig from "@src/config/app";
-import guestList from "./guest_list.json";
-import { Toaster } from "react-hot-toast";
+"use client";
+import React, { useState, useRef, ChangeEvent, FormEvent } from 'react';
+
+import { useTranslation, defaultLocale } from "../src/i18n";
+import resolvePath from "../src/utils/resolvePath";
+import appConfig from "../src/config/app";
 
 // Import the new components
-import WeddingHeader from "@src/components/WeddingHeader";
-import CoupleSection from "@src/components/CoupleSection";
-import TimeAndDateSection from "@src/components/TimeAndDateSection";
-import StorySection from "@src/components/StorySection";
-import GallerySection from "@src/components/GallerySection";
-import MessageSection from "@src/components/MessageSection";
-import Footer from "@src/components/Footer";
+import WeddingHeader from "../src/components/WeddingHeader";
+import CoupleSection from "../src/components/CoupleSection";
+import TimeAndDateSection from "../src/components/TimeAndDateSection";
+import StorySection from "../src/components/StorySection";
+import GallerySection from "../src/components/GallerySection";
+import MessageSection from "../src/components/MessageSection";
+import Footer from "../src/components/Footer";
 import RSVPSection from "../src/components/RSVPSection";
 // import GiftsSection from "../src/components/GiftsAndSupportSection";
 import FloatingButton from "../src/components/FloatingButton";
@@ -117,20 +117,9 @@ ShowInvite.getInitialProps = (ctx) => {
     };
   }
 
-  const guestData = guestList.data;
-  const guestListLastUpdatedAt = guestList.meta.lastUpdatedAt;
-  const { name, greeting, locale } =
-    guestData.filter((guest) => guest.guestId === guestId)[0] || {};
-  if (!name) {
-    return {
-      currentUrl,
-      ...emptyGuestParams,
-    };
-  }
 
   return {
     currentUrl,
-    guestListLastUpdatedAt,
     guest: {
       name,
       greeting,
